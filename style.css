@@ -1,0 +1,169 @@
+/*
+.custom-toggler.navbar-toggler {
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+*/
+
+
+
+.banner-meio > .banner-image{
+    width: 100%;
+    display: block;
+}
+
+section.bg-top{
+  width: 100%;
+  min-height:350px;
+  background-image: url('images/banner-principal.png');
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.paragrafos{
+  text-align: justify;
+  font-size: 16px;
+}
+
+
+.padding30{
+  padding-right: 30px;
+}
+
+
+.custom-title h2{
+
+  color: #009ABD;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.custom-title div{
+  left: 0;
+  top: 0;
+  background: #4094BA;
+  width: 40px;
+  height:4px;
+}
+
+section.diferenciais{
+  padding:30px;
+}
+
+section.diferenciais .col-md-4{
+  padding: 0 40px;
+}
+
+section.diferenciais h2{
+  padding:10px;
+  border-bottom: 1px dotted black;
+}
+
+/*section.convite{
+  padding: 15px 0;
+  background: #3FA3C5;
+}
+
+section.convite h2{
+  font-size: 28px;
+  margin: 15px 0;
+  color: white;
+}
+
+section.convite form{
+  margin: 15px 0;
+}
+
+section.convite input[type=email]{
+  width: calc(100% - 100px);
+  height: 40px;
+}
+
+section.convite button{
+  width: 100px;
+  height: 40px;
+  vertical-align: top;
+}
+*/
+
+
+/* Fundo */
+
+
+
+.fundo1{
+  background-color: #4094BA;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+
+.fundo2{
+  background-color: #009ABD;
+  border-radius: 50px;
+}
+
+.fundo3{
+  background-color: #086AAC;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.fundo4{
+  background-color: #204D90;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.fundo5{
+  background-color: #19233F;
+  border-radius: 50px;
+}
+
+
+
+section.contato{
+  padding:30px 0;
+}
+
+footer{
+  padding:14px 0;
+  background: #1F3251;
+  color: white;
+}
+
+footer ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.group-btns a{
+  margin:0 10px;
+}
+
+footer a{
+  color: white;
+  font-size: 17px;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+  /*
+  .navbar-nav{
+    margin-top: 30px;
+  }
+  .nav-link{
+  border-top: 1px solid black;
+  margin:0 10px;
+  }
+  */
+
+.nav-link{
+  margin:0;
+}
+}
